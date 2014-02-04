@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BaseChar : MonoBehaviour {
 	private int _health;
-	private int _mana;
+	
 	private Vector3 _velocity;
 	private Transform _position;//used to store position, rotation, and scale
 	//look up Transform to see if we're going to do it this way
